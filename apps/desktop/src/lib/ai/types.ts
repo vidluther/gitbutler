@@ -22,10 +22,9 @@ export enum OpenAIModelName {
 // https://docs.anthropic.com/en/docs/about-claude/models/overview
 // https://platform.claude.com/docs/en/about-claude/model-deprecations#model-status (show active models only)
 export enum AnthropicModelName {
-	Haiku = "claude-haiku-4-5-20251001",
-	Sonnet46 = "claude-sonnet-4-6",
-	Opus46 = "claude-opus-4-6",
-	Opus45 = "claude-opus-4-5-20251101",
+	Haiku = "claude-haiku-4-5",
+	Sonnet = "claude-sonnet-4-6", // good till Feb 2027
+	Opus = "claude-opus-4-6", // good till Feb 2027
 }
 
 export enum MessageRole {

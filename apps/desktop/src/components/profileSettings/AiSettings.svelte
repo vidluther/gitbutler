@@ -105,10 +105,7 @@
 			label: "o3 Mini",
 			value: OpenAIModelName.O3mini,
 		},
-		{
-			label: "o1 Mini",
-			value: OpenAIModelName.O1mini,
-		},
+
 		{
 			label: "GPT 4o mini",
 			value: OpenAIModelName.GPT4oMini,
@@ -125,20 +122,16 @@
 
 	const anthropicModelOptions = [
 		{
-			label: "Haiku",
+			label: "Haiku (Recommended)",
 			value: AnthropicModelName.Haiku,
 		},
 		{
-			label: "Sonnet 4.6 (recommended)",
-			value: AnthropicModelName.Sonnet46,
+			label: "Sonnet",
+			value: AnthropicModelName.Sonnet,
 		},
 		{
-			label: "Opus 4.6",
-			value: AnthropicModelName.Opus46,
-		},
-		{
-			label: "Opus 4.5",
-			value: AnthropicModelName.Opus45,
+			label: "Opus",
+			value: AnthropicModelName.Opus,
 		},
 	];
 
