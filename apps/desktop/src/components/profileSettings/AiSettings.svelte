@@ -59,7 +59,7 @@
 		modelKind = await aiService.getModelKind();
 
 		openAIKeyOption = await aiService.getOpenAIKeyOption();
-		openAIModelName = await aiService.getOpenAIModleName();
+		openAIModelName = await aiService.getOpenAIModelName();
 		openAIKey = await aiService.getOpenAIKey();
 		openAICustomEndpoint = await aiService.getOpenAICustomEndpoint();
 
@@ -94,7 +94,7 @@
 
 	const openAIModelOptions = [
 		{
-			label: "GPT 5",
+			label: "GPT 5.4",
 			value: OpenAIModelName.GPT5,
 		},
 		{
@@ -102,21 +102,8 @@
 			value: OpenAIModelName.GPT5Mini,
 		},
 		{
-			label: "o3 Mini",
-			value: OpenAIModelName.O3mini,
-		},
-
-		{
-			label: "GPT 4o mini",
-			value: OpenAIModelName.GPT4oMini,
-		},
-		{
-			label: "GPT 4.1",
-			value: OpenAIModelName.GPT4_1,
-		},
-		{
-			label: "GPT 4.1 mini (recommended)",
-			value: OpenAIModelName.GPT4_1Mini,
+			label: "GPT 5 Nano (recommended)",
+			value: OpenAIModelName.GPT5Nano,
 		},
 	];
 
